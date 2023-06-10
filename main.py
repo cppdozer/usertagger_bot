@@ -10,9 +10,9 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-accountID =12444421 
-accountHash = '7afd603f843d2b40fa8617622e6a9d77'
-Token = "5890782941:AAEgr72Cv1cbQrcwAh3Bl24rIiRnSSOWQk0"
+accountID = 0 # your_account_id 
+accountHash = 1 # your_account_hash
+Token = 2 # your_token
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
